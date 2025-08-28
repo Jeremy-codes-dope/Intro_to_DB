@@ -1,0 +1,2 @@
+USE alx_book_storeDB;
+DESCRIBE alx_book_stroreDB
