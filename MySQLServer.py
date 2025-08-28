@@ -8,7 +8,7 @@ mydb = mysql.connector.connect(
 mycursor = mydb.cursor()
 try:
     mycursor.execute(
-       """CREATE DATABASE alx_book_storeDB;
+       """CREATE DATABASE alxbookstoreDB;
            USE alx_book_storeDB;
        """
         )
