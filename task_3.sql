@@ -1,2 +1,2 @@
 USE alx_book_storeDB;
-DESCRIBE alx_book_stroreDB
+SELECT * FROM alx_book_stroreDB
