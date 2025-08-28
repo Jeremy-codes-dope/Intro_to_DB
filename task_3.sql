@@ -1,2 +1,4 @@
-USE alx_book_storeDB;
-SELECT * FROM alx_book_stroreDB
+-- task_3.sql
+-- List all tables in the given database
+
+SHOW TABLES;
