@@ -8,12 +8,12 @@ mydb = mysql.connector.connect(
 mycursor = mydb.cursor()
 try:
     mycursor.execute(
-       """CREATE DATABASE alxbookstoreDB;
-           USE alxbookstoreDB;
+       """CREATE DATABASE IF EXISTS alx_book_store;
+           USE alxbookstore;
        """
         )
     print(" Database 'alx_book_store' created successfully!")
-except ProgrammingError:
+except Error as e:
     print("A data base with that name already exists")
 
 mydb.commit()
