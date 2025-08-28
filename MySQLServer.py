@@ -9,7 +9,7 @@ mycursor = mydb.cursor()
 try:
     mycursor.execute(
        """CREATE DATABASE alxbookstoreDB;
-           USE alx_book_storeDB;
+           USE alxbookstoreDB;
        """
         )
     print(" Database 'alx_book_store' created successfully!")
